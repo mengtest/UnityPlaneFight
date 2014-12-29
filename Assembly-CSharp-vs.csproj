@@ -48,7 +48,6 @@
   <ItemGroup>
      <Compile Include="Assets\scripts\Welcome\timeDaojishi.cs" />
      <Compile Include="Assets\scripts\backGround_move.cs" />
-     <Compile Include="Assets\scripts\heroControl.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
