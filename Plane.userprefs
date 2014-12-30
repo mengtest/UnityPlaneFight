@@ -1,13 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\result.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\startButton.js">
     <Files>
-      <File FileName="Assets\scripts\enemyBuider.js" Line="10" Column="16" />
+      <File FileName="Assets\scripts\enemyBuider.js" Line="1" Column="1" />
       <File FileName="Assets\scripts\heroControl.js" Line="1" Column="1" />
       <File FileName="Assets\scripts\zidan.js" Line="1" Column="1" />
       <File FileName="Assets\scripts\enemyBehavor.js" Line="1" Column="1" />
-      <File FileName="Assets\scripts\scoreCount.js" Line="10" Column="25" />
-      <File FileName="Assets\scripts\result.js" Line="4" Column="99" />
+      <File FileName="Assets\scripts\startButton.js" Line="4" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

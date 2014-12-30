@@ -51,6 +51,7 @@
      <Compile Include="Assets\scripts\heroControl.js" />
      <Compile Include="Assets\scripts\result.js" />
      <Compile Include="Assets\scripts\scoreCount.js" />
+     <Compile Include="Assets\scripts\startButton.js" />
      <Compile Include="Assets\scripts\zidan.js" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
