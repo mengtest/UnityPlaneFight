@@ -8,7 +8,7 @@ function Start () {
 function Update () {
 	
 	timeTemp_ +=Time.deltaTime;
-	Debug.Log(timeTemp_);
+	
 	/*i
 	transform.position =Camera.main.ScreenToWorldPoint( new Vector3(Input.mousePosition.x,Input.mousePosition.y,10));
 	if(Input.GetKeyDown(KeyCode.Space)||Input.GetMouseButtonDown(0)){

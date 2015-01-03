@@ -12,3 +12,8 @@ function Update () {
 	
 	}
 }
+
+function OnCollisionEnter2D( col:Collision2D){
+	Destroy(this.gameObject);
+
+}
