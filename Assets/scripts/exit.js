@@ -10,8 +10,8 @@ function Update () {
 
 function OnGUI(){
 	GUI.skin=mySkin;
-	if(GUI.Button(new Rect(180,200,120,40),"",GUI.skin.GetStyle("StartButton"))){
-		Application.LoadLevel(1);
+	if(GUI.Button(new Rect(190,280,100,40),"",GUI.skin.GetStyle("exitButton"))){
+		Application.Quit();
 	}
 
 }

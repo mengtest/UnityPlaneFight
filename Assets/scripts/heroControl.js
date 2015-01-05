@@ -15,12 +15,12 @@ function Update () {
 		//Debug("sa");
 		*/
 		
-		if(Input.GetKeyDown(KeyCode.LeftArrow)){
-			transform.position.x-= 0.2;
+		if(Input.GetKey(KeyCode.LeftArrow)){
+			transform.position.x-= 1*Time.deltaTime;
 		
 		}
-		if(Input.GetKeyDown(KeyCode.RightArrow)){
-			transform.position.x+= 0.2;
+		if(Input.GetKey(KeyCode.RightArrow)){
+			transform.position.x+= 1*Time.deltaTime;
 		}
 		if(timeTemp_>=0.6){
 		

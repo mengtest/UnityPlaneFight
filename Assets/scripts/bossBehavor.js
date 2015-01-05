@@ -1,11 +1,13 @@
 ﻿#pragma strict
 var bossLife:int = 30;
+private var  timeTemp:float=0;
+var bosszidan:GameObject;
 function Start () {
 
 }
 
 function Update () {
-	
+	timeTemp+=Time.deltaTime;
 }
 
 function OnCollisionEnter2D(col:Collision2D){
@@ -14,8 +16,13 @@ if(col.gameObject.name=="zidan_t(Clone)"){
 }
 if(bossLife<0){
  	Destroy(this.gameObject);
-
+	Application.LoadLevel(3);
 }
-	//Debug.Log("wo zhong qiang le");
+if(timeTemp>0.5){
+	var n:GameObject = Instantiate(bosszidan,Vector3(transform.position.x,transform.position.y-1.5,0),transform.rotation);
+	timeTemp=0;
+}
+
+	
 
 }

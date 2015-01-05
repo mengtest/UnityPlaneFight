@@ -48,8 +48,10 @@
   <ItemGroup>
      <Compile Include="Assets\scripts\bossBehavor.js" />
      <Compile Include="Assets\scripts\bossBuilderBehavor.js" />
+     <Compile Include="Assets\scripts\bossZidan.js" />
      <Compile Include="Assets\scripts\enemyBehavor.js" />
      <Compile Include="Assets\scripts\enemyBuider.js" />
+     <Compile Include="Assets\scripts\exit.js" />
      <Compile Include="Assets\scripts\heroControl.js" />
      <Compile Include="Assets\scripts\result.js" />
      <Compile Include="Assets\scripts\scoreCount.js" />
