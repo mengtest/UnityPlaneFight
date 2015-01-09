@@ -2,7 +2,8 @@ fileFormatVersion: 2
 guid: e759b91584e73d44793c40b9ba1ffedd
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - bosszidan: {fileID: 172490, guid: 50fe470c64b8a344980960fd02cd7ef6, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

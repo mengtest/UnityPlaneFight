@@ -15,8 +15,9 @@ if(col.gameObject.name=="zidan_t(Clone)"){
 	bossLife = bossLife-1;
 }
 if(bossLife<0){
+	gameObject.Find("wuPin_Builder").GetComponent(AddLife).isHeroLifeRun=true;
  	Destroy(this.gameObject);
-	Application.LoadLevel(3);
+	
 }
 if(timeTemp>0.5){
 	var n:GameObject = Instantiate(bosszidan,Vector3(transform.position.x,transform.position.y-1.5,0),transform.rotation);

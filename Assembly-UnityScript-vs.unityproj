@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\scripts\AddLife.js" />
      <Compile Include="Assets\scripts\bossBehavor.js" />
      <Compile Include="Assets\scripts\bossBuilderBehavor.js" />
      <Compile Include="Assets\scripts\bossZidan.js" />

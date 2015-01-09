@@ -12,14 +12,14 @@ function Start () {
 function Update () {
 
 
-
+	moveSpeedX = 30;
 	tempTime += Time.deltaTime;
 	transform.Translate(Vector3.right*moveSpeedX*Time.deltaTime);
 	if(transform.position.x>1.85){
 		transform.position.x=-1.77;
 	
 	}
-	moveSpeedX = 30;
+	
 	if(tempTime>1.5&&((Boss_score>(gameObject.Find("score").GetComponent(scoreCount).score)))){
 		var n:GameObject = Instantiate(enemy,transform.position,transform.rotation);
 		tempTime  = 0;
