@@ -16,7 +16,6 @@ function Update () {
 function OnCollisionEnter2D( col:Collision2D){
 	if(col.gameObject.name!="PaperPlane"){
 		Destroy(this.gameObject);
-	
 	}else{
 	gameObject.transform.position.x=transform.position.x;
 	}

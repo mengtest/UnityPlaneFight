@@ -27,7 +27,7 @@ function Update () {
 		var n:GameObject = Instantiate(zidan,Vector3(transform.position.x,transform.position.y+0.5,0),transform.rotation);
 		timeTemp_ = 0;
 		}
-		//
+		
 
 }
 
