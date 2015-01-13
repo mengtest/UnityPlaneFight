@@ -1,11 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\AddLife.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\bossZidan.js">
     <Files>
-      <File FileName="Assets\scripts\AddLife.js" Line="20" Column="25" />
-      <File FileName="Assets\scripts\heroControl.js" Line="20" Column="3" />
-      <File FileName="Assets\scripts\enemyBuider.js" Line="21" Column="3" />
-      <File FileName="Assets\scripts\bossBehavor.js" Line="18" Column="2" />
+      <File FileName="Assets\scripts\zidan.js" Line="21" Column="55" />
+      <File FileName="Assets\scripts\heroControl.js" Line="36" Column="19" />
+      <File FileName="Assets\scripts\enemyBehavor.js" Line="16" Column="42" />
+      <File FileName="Assets\scripts\bossZidan.js" Line="4" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

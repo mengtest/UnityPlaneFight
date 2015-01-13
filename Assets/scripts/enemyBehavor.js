@@ -6,15 +6,14 @@ function Start () {
 
 function Update () {
 	if(transform.position.y<-3.5){
-	
-	Destroy(this.gameObject);
+		Destroy(this.gameObject);//自销毁
 	}
 }
 
 
 function OnCollisionEnter2D( col:Collision2D){
 
-	if(col.gameObject.name=="zidan_t(Clone)"){
+	if(col.gameObject.name=="zidan(Clone)"){
 	Destroy(col.gameObject);
 	Destroy(this.gameObject);
 	

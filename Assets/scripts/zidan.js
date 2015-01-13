@@ -6,7 +6,7 @@ function Start () {
 }
 
 function Update () {
-	gameObject.rigidbody2D.AddForce(Vector2(0,speed));
+	transform.position.y+=1*Time.deltaTime;
 	if(transform.position.y>6){
 		 Destroy(this.gameObject);
 	
@@ -14,6 +14,14 @@ function Update () {
 }
 
 function OnCollisionEnter2D( col:Collision2D){
-	Destroy(this.gameObject);
+	if(col.gameObject.name!="PaperPlane"){
+		Destroy(this.gameObject);
+	
+	}else{
+	gameObject.transform.position.x=transform.position.x;
+	}
+		
+
+	
 
 }

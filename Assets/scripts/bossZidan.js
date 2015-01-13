@@ -1,14 +1,14 @@
 ﻿#pragma strict
 
 function Start () {
-		if(transform.position.y<-3){
-		 Destroy(this.gameObject);
-	
-	}
+		
 }
 
 function Update () {
+	if(transform.position.y<-3){
+		 Destroy(this.gameObject);
 	
+	}
 }
 
 function OnCollisionEnter2D(col:Collision2D){
