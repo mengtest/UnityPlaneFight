@@ -14,9 +14,15 @@ function Update () {
 function OnCollisionEnter2D( col:Collision2D){
 
 	if(col.gameObject.name=="zidan(Clone)"){
+	
 	Destroy(col.gameObject);
 	Destroy(this.gameObject);
+	}
 	
+	if(col.gameObject.name=="hero"){
+		GameObject.Find("HeroLife").GetComponent(HeroLife).heroLife-=1;
+		
+		Destroy(this.gameObject);
 	}
 	
 	var num:GameObject;

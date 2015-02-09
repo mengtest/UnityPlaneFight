@@ -1,13 +1,19 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\WuPingControl.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\UIScript\HeroLife.js">
     <Files>
-      <File FileName="Assets\scripts\UIScript\HeroLife.js" Line="10" Column="36" />
-      <File FileName="Assets\scripts\UIScript\scoreCount.js" Line="1" Column="1" />
-      <File FileName="Assets\scripts\WuPingControl.js" Line="13" Column="26" />
+      <File FileName="Assets\scripts\WuPingControl.js" Line="13" Column="52" />
       <File FileName="Assets\scripts\UIScript\result.js" Line="1" Column="1" />
       <File FileName="Assets\scripts\UIScript\exit.js" Line="1" Column="1" />
       <File FileName="Assets\scripts\bossBuilderBehavor.js" Line="10" Column="6" />
+      <File FileName="Assets\scripts\heroControl.js" Line="30" Column="1" />
+      <File FileName="Assets\scripts\bossZidan.js" Line="18" Column="64" />
+      <File FileName="Assets\scripts\AddLife.js" Line="11" Column="8" />
+      <File FileName="Assets\scripts\UIScript\HeroLife.js" Line="9" Column="21" />
+      <File FileName="Assets\scripts\enemyBehavor.js" Line="24" Column="3" />
+      <File FileName="Assets\scripts\bossBehavor.js" Line="14" Column="43" />
+      <File FileName="Assets\scripts\UIScript\scoreCount.js" Line="1" Column="1" />
+      <File FileName="Assets\scripts\startButton.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

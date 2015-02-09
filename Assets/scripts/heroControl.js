@@ -8,12 +8,6 @@ function Start () {
 function Update () {
 	
 	timeTemp_ +=Time.deltaTime;
-	
-	/*i
-	transform.position =Camera.main.ScreenToWorldPoint( new Vector3(Input.mousePosition.x,Input.mousePosition.y,10));
-	if(Input.GetKeyDown(KeyCode.Space)||Input.GetMouseButtonDown(0)){
-		//Debug("sa");
-		*/
 		
 		if(Input.GetKey(KeyCode.LeftArrow)){
 			transform.position.x-= 1*Time.deltaTime;
@@ -33,9 +27,5 @@ function Update () {
 
 
 function OnCollisionEnter2D(col:Collision2D){
-	if(col.gameObject.name=="enemy(Clone)"){
-	Application.LoadLevel(2);
-	
-	}
-	
+
 }

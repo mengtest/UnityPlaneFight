@@ -15,7 +15,7 @@ function OnCollisionEnter2D(col:Collision2D){
 			Destroy(this.gameObject);
 			Destroy(col.gameObject);
 		if(col.gameObject.name=="hero"){
-			Application.LoadLevel(2);
+			GameObject.Find("HeroLife").GetComponent(HeroLife).heroLife-=1;
 		}
 	}
 }
