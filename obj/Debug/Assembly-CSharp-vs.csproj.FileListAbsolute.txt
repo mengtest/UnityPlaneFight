@@ -1,0 +1,12 @@
+F:\u3d\Plane\Temp\bin\Debug\Assembly-CSharp.dll
+F:\u3d\Plane\Temp\bin\Debug\Assembly-CSharp.pdb
+F:\u3d\Plane\Temp\bin\Debug\UnityEditor.dll
+F:\u3d\Plane\Temp\bin\Debug\UnityEngine.dll
+F:\u3d\Plane\Temp\bin\Debug\UnityEngine.UI.dll
+F:\u3d\Plane\Temp\bin\Debug\Mono.Cecil.dll
+F:\u3d\Plane\Temp\bin\Debug\nunit.framework.dll
+F:\u3d\Plane\Temp\bin\Debug\Unity.DataContract.dll
+F:\u3d\Plane\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+F:\u3d\Plane\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+F:\u3d\Plane\obj\Debug\Assembly-CSharp.dll
+F:\u3d\Plane\obj\Debug\Assembly-CSharp.pdb

@@ -46,20 +46,20 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\scripts\AddLife.js" />
-     <Compile Include="Assets\scripts\UIScript\HeroLife.js" />
-     <Compile Include="Assets\scripts\UIScript\exit.js" />
-     <Compile Include="Assets\scripts\UIScript\result.js" />
-     <Compile Include="Assets\scripts\UIScript\scoreCount.js" />
-     <Compile Include="Assets\scripts\WuPingControl.js" />
-     <Compile Include="Assets\scripts\bossBehavor.js" />
-     <Compile Include="Assets\scripts\bossBuilderBehavor.js" />
-     <Compile Include="Assets\scripts\bossZidan.js" />
-     <Compile Include="Assets\scripts\enemyBehavor.js" />
-     <Compile Include="Assets\scripts\enemyBuider.js" />
-     <Compile Include="Assets\scripts\heroControl.js" />
-     <Compile Include="Assets\scripts\startButton.js" />
-     <Compile Include="Assets\scripts\zidan.js" />
+     <Compile Include="Assets\scripts\Js\AddLife.js" />
+     <Compile Include="Assets\scripts\Js\WuPingControl.js" />
+     <Compile Include="Assets\scripts\Js\bossBehavor.js" />
+     <Compile Include="Assets\scripts\Js\bossBuilderBehavor.js" />
+     <Compile Include="Assets\scripts\Js\bossZidan.js" />
+     <Compile Include="Assets\scripts\Js\enemyBehavor.js" />
+     <Compile Include="Assets\scripts\Js\enemyBuider.js" />
+     <Compile Include="Assets\scripts\Js\heroControl.js" />
+     <Compile Include="Assets\scripts\Js\startButton.js" />
+     <Compile Include="Assets\scripts\Js\zidan.js" />
+     <Compile Include="Assets\scripts\UIScript\Js\HeroLife.js" />
+     <Compile Include="Assets\scripts\UIScript\Js\exit.js" />
+     <Compile Include="Assets\scripts\UIScript\Js\result.js" />
+     <Compile Include="Assets\scripts\UIScript\Js\scoreCount.js" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>

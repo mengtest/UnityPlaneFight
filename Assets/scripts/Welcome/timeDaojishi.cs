@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class timeDaojishi : MonoBehaviour {
-    public float time=5;
+    public float time=5;//倒计时时间
     private float temp;
 	// Use this for initialization
 	void Start () {
@@ -16,7 +16,6 @@ public class timeDaojishi : MonoBehaviour {
         UnityEngine.Debug.Log(temp);
         if (temp > time) {
             Application.LoadLevel(1);
-           
         }
 	}
 }

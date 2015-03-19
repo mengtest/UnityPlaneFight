@@ -46,8 +46,19 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\scripts\Cs\AddLife.cs" />
+     <Compile Include="Assets\scripts\Cs\BossBehavor.cs" />
+     <Compile Include="Assets\scripts\Cs\BossBuilder.cs" />
+     <Compile Include="Assets\scripts\Cs\EnemyBehavor.cs" />
+     <Compile Include="Assets\scripts\Cs\EnemyBuilder.cs" />
+     <Compile Include="Assets\scripts\Cs\HeroControl.cs" />
+     <Compile Include="Assets\scripts\Cs\StartButton.cs" />
+     <Compile Include="Assets\scripts\Cs\WuPingControl.cs" />
+     <Compile Include="Assets\scripts\Cs\Zidan.cs" />
+     <Compile Include="Assets\scripts\Cs\backGround_move.cs" />
+     <Compile Include="Assets\scripts\UIScript\C\HeroLife.cs" />
+     <Compile Include="Assets\scripts\UIScript\C\scoreCount.cs" />
      <Compile Include="Assets\scripts\Welcome\timeDaojishi.cs" />
-     <Compile Include="Assets\scripts\backGround_move.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
