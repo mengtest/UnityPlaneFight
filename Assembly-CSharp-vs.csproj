@@ -56,7 +56,9 @@
      <Compile Include="Assets\scripts\Cs\WuPingControl.cs" />
      <Compile Include="Assets\scripts\Cs\Zidan.cs" />
      <Compile Include="Assets\scripts\Cs\backGround_move.cs" />
+     <Compile Include="Assets\scripts\UIScript\C\Exit.cs" />
      <Compile Include="Assets\scripts\UIScript\C\HeroLife.cs" />
+     <Compile Include="Assets\scripts\UIScript\C\Result.cs" />
      <Compile Include="Assets\scripts\UIScript\C\scoreCount.cs" />
      <Compile Include="Assets\scripts\Welcome\timeDaojishi.cs" />
  <Reference Include="UnityEngine.UI">
